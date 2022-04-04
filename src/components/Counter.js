@@ -5,7 +5,9 @@ import classes from './Counter.module.css';
 
 const Counter = () => {
   const dispatch = useDispatch();
-  const { counter, isCounterOpen } = useSelector((state) => state);
+  const { counter, isCounterOpen } = useSelector((state) => state.counter);
+
+  console.log(counter, isCounterOpen);
 
   // INC
   const incrementHandler = () => {
