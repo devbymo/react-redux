@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <h1>Redux Auth</h1>
+      <h1>Redux</h1>
       <nav>
         <ul>
           <li>
